@@ -55,11 +55,17 @@ body {
 }
 
 .calculator button:hover {
-  color: #e6e6fa;
+  color: #d196ff;
   background-color: #8778eb;
   box-shadow: 0px 5px 15px 5px #d196ff;
   cursor: pointer;
   transform: translateY(-5px);
+}
+
+.calculator button:last-child:hover {
+  color: #8778eb;
+  background-color: #d196ff;
+  box-shadow: 0px 5px 15px 5px #8778eb;
 }
 
 /* <!-- End of Mariam & Menna's Section --> */
